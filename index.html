@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2439c7">
+  <title>Prepper — Join the Waitlist</title>
+  <meta name="description" content="Get early access to Prepper, your smarter way to stay ahead of classes, tests, and exams.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="topbar" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Prepper home"><span class="brand-mark">P</span><span>prepper<span class="brand-dot">.</span></span></a>
+      <span class="early-access">EARLY ACCESS</span>
+    </nav>
+
+    <section class="hero">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="study-card card-calendar"><span class="mini-label">YOUR WEEK</span><div class="calendar-head"><b>MON</b><b>TUE</b><b>WED</b><b>THU</b><b>FRI</b></div><div class="calendar-grid"><i></i><i></i><i class="active"></i><i></i><i></i><i></i><i class="blue"></i><i></i><i></i><i class="yellow"></i><i></i><i></i><i></i><i class="blue"></i><i></i></div><span class="calendar-caption">Stay one step ahead.</span></div>
+        <div class="study-card card-check"><span class="check-circle">✓</span><div><strong>Revision session</strong><small>Today · 4:00 PM</small></div><span class="tiny-check">✓</span></div>
+        <div class="study-card card-exam"><span class="exam-icon">✦</span><div><small>UP NEXT</small><strong>Biology test</strong><span class="pill">2 days left</span></div></div>
+        <div class="floating-note note-one">✦ Plan smarter</div><div class="floating-note note-two">✓ Never miss a deadline</div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR ACADEMIC LIFE, ORGANIZED</p>
+        <h1>Get ahead.<br>Stay <span>ready.</span></h1>
+        <p class="intro">Classes, tests, exams and study plans — all in one place. Prepper helps you stay organized and ready for what’s next.</p>
+      </div>
+    </section>
+
+    <section class="signup-panel" id="waitlist">
+      <div class="signup-heading">
+        <div><p class="section-kicker">BE FIRST IN LINE</p><h2>Join the <span>waitlist.</span></h2></div>
+        <div class="number-bubble" aria-hidden="true">01</div>
+      </div>
+      <p class="form-intro">Leave your details and we’ll let you know when Prepper is ready for you.</p>
+
+      <form id="waitlist-form" novalidate>
+        <label class="field-label" for="email">Email address</label>
+        <div class="input-wrap"><span class="input-icon" aria-hidden="true">✉</span><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+
+        <label class="field-label" for="whatsapp">WhatsApp number</label>
+        <div class="input-wrap"><span class="input-icon whatsapp-icon" aria-hidden="true">◉</span><input id="whatsapp" name="whatsapp" type="tel" placeholder="+234 801 234 5678" autocomplete="tel" required><small>Include your country code</small></div>
+
+        <button class="submit-button" type="submit"><span>Join the waitlist</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        <p class="privacy-note"><span aria-hidden="true"></span> Your details stay private. We’ll only contact you about Prepper.</p>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="benefits">
+      <p class="section-kicker">WHAT YOU’LL GET</p>
+      <div class="benefit-grid">
+        <article><span class="benefit-icon">◷</span><h3>Never miss a thing</h3><p>Keep track of classes, tests and exams.</p></article>
+        <article><span class="benefit-icon">▦</span><h3>Your week, clearly</h3><p>See your timetable and plans in one view.</p></article>
+        <article><span class="benefit-icon">✦</span><h3>Study with purpose</h3><p>Build better routines and stay prepared.</p></article>
+      </div>
+    </section>
+
+    <footer><a class="footer-brand" href="#">prepper<span>.</span></a><p>Made for students. Built for what’s next.</p><span class="footer-line"></span><small>© <span id="year"></span> Prepper  <a href="http://wa.me/+2349025306597">(The Temidayo Yusuf)</a></small></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
